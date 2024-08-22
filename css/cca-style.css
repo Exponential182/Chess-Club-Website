@@ -1,6 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    font-family: "Public Sans", sans-serif;   
+}
+
 h1{
     text-align: center;
     font-size: 4em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color-scheme:white, black ;
+    font-family: "Public Sans", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004E42;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.active{
+    background-color: #00384E;
+}
+
+.logo{
+    background-color: #004E42;
+}
+
+.nav_grid{
+    display: grid;
+    grid-template-columns: 1rem, 5 rem;
 }
