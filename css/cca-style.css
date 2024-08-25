@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+img{
+    width: 100%;
+}
 
 html{
     font-family: "Public Sans", sans-serif;   
@@ -14,36 +17,61 @@ h1{
     font-family: "Public Sans", sans-serif;
 }
 
+/* Nav Bar */
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #004E42;
+    height: 100%;
 }
 
 li{
     float: left;
+    height: 100%;
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.2em;
+    height: 100%;
 }
 
 .active{
     background-color: #00384E;
 }
 
+.nav_bar{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    margin: auto;
+    height: 100%;
+}
+
 .logo{
     background-color: #004E42;
 }
 
-.nav_grid{
-    display: grid;
-    grid-template-columns: 1rem, 5 rem;
+/* Hero Section */
+.hero-image{
+    background-image: rgba(0,0,0,0.5), url("./images/Chessboard.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.hero-text{
+    font-size: 3rem;
+    color: #00384E;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 100%;
 }
