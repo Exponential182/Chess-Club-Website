@@ -42,13 +42,17 @@ li a {
 
 .nav_bar{
     display: grid;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 112px 1fr;
     margin: auto;
     height: 100%;
+    align-items: center;
+    background-color: #004E42;
 }
 
 .logo{
     background-color: #004E42;
+    height: 50px;
+    width: 112px;
 }
 
 /* Hero Section */
