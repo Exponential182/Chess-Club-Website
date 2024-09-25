@@ -26,6 +26,10 @@ li{
     height: 100%;
 }
 
+li:hover{
+    background-color: #003A2C;
+}
+
 li a {
     display: inline-block;
     color: #FFFFFF;
