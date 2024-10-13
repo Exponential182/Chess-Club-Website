@@ -92,12 +92,11 @@ li a {
 }
 
 #about-us img{
-    border-radius: 7%;
+    border-radius: 13% 0%;
 }
 
 .grid-text h2{
     font-size: 2rem;
-    text-decoration: underline;
 }
 .grid-text p{
     font-size: 1.05rem;
@@ -117,4 +116,23 @@ li a {
     color: #003A2C;
     font-size: 1.5rem;
     font-family: "Public Sans", sans-serif;
+}
+
+.stats-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3% 3%;
+    background-color: #00AB8E;
+}
+
+.stats-headings{
+    text-align: center;
+    color: #00384E;
+    font-size: 4rem;
+}
+
+.stats-body{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
 }
