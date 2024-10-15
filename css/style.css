@@ -125,6 +125,11 @@ li a {
     background-color: #00AB8E;
 }
 
+.stats-item{
+    border-right: #00384E solid 3px;
+    border-left: #00384E solid 3px;
+}
+
 .stats-headings{
     text-align: center;
     color: #00384E;
