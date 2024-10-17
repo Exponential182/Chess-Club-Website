@@ -70,12 +70,12 @@ li a {
 
 .hero-text{
     font-size: 3.2rem;
-    color: #00AB8E;
+    color: #FFFFFF;
     position: absolute;
     top: 275px;
     text-align: center;
     width: 100%;
-    text-shadow: 4px 4px #FFFFFF;
+    -webkit-text-stroke: 3px #003A2C;
 }
 
 /* Main Body */
@@ -128,6 +128,7 @@ li a {
 .stats-item{
     border-right: #00384E solid 3px;
     border-left: #00384E solid 3px;
+    padding: 3% 0%;
 }
 
 .stats-headings{
@@ -140,4 +141,20 @@ li a {
     text-align: center;
     color: #FFFFFF;
     font-size: 2rem;
+}
+
+.attendance{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    background-color: #004E42;
+}
+
+.attendance-iframe{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
 }
