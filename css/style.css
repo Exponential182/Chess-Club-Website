@@ -110,6 +110,8 @@ li a {
     width: 40%;
     height: 12%;
     margin-left: 15%;
+    font-size: 1.5rem;
+    color: #003A2C;
 }
 
 .external-link-text{
@@ -119,6 +121,7 @@ li a {
     font-family: "Public Sans", sans-serif;
 }
 
+/* Stats Grid */
 .stats-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -145,7 +148,14 @@ li a {
 }
 
 
-/* Stats Grid */
+.image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3% 3%;
+    background-color: #003A2C;
+    align-items: center;
+}
+
 .footer-grid{
     background: linear-gradient(#003A2C, #004E42);
     display: grid;
